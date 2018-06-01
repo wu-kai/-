@@ -1,0 +1,143 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font-size: 14px;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+
+html ,body{
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+body>{
+    min-height: 100%;
+}
+
+/*工具样式*/
+/*清除浮动*/
+.clearF{
+    clear: both;
+}
+/*按钮样式*/
+.common_btn{
+    border-radius:5px;
+    outline:none;
+    color:#fff;
+    text-align:center;
+    border:none;
+    background:#cb1013;
+    line-height:24px;
+    font-size:14px;
+    width:200px;
+}
+.common_btn1{
+    text-indent:6px;
+    letter-spacing:3px;
+}
+
+/*公共宽度计算*/
+.common_width{
+    width: 90%;
+    max-width: 120px;
+    min-width: 900px;
+    margin: 0 auto;
+}
+/*顶部公共样式 start*/
+.common_top{
+    width: 100%;
+    color: #666;
+    font-size: 12px;
+    box-shadow: 0 -8px 15px 1px #cb1013;
+    background:#fff;
+}
+.common_top .top-box span{
+    line-height: 30px;
+}
+.common_top .top-box span:hover{
+    color: #cb1013;
+    cursor: pointer;
+}
+.common_top .left{
+    float: left;
+}
+.common_top .left span{
+    margin-right: 20px;
+}
+.common_top .right span{
+    float: right;
+    margin-left: 20px;
+}
+/*顶部公共样式 end*/
+
+/*注册页等公共背景 start*/
+.common_bg{
+    width:100%;
+    height:calc(100% - 30px);
+    position:relative;
+    top:0;
+    box-sizing:border-box;
+    padding-top:30px;
+    background:url('../image/bg.png') no-repeat center bottom;
+}
+.common_bg .title{
+    text-align:left;
+    padding-left:50px;
+    background:url('../image/logo.jpg') no-repeat left center;
+    line-height:50px;
+    font-size:26px;
+    color:#cb1013;
+    box-sizing: border-box;
+}
+.common_bg .content{
+    margin:0 auto;
+}
+/*注册页等公共背景 send*/
+/*注册成功页*/
+.registered_successfully{}
+.registered_successfully .common_bg{}
+.registered_successfully .common_bg .content{
+    background:rgba(113, 8, 8, 0.11);
+    padding:80px 0 70px 0;
+    text-align:center;
+    width:150px;
+    margin:80px auto 0;
+}
+.registered_successfully .common_bg .content p{
+    width: 290px;
+    margin: 0 auto 0;
+    font-size: 13px;
+    color: #cb1013;
+    padding-left: 0px;
+    box-sizing: border-box;
+    background: url(../image/oval.png) no-repeat left center;
+    background-size: 22px;
+    line-height: 22px;
+    text-align: right;
+}
+.registered_successfully .common_bg .content .btns{
+    margin-top:30px;
+}
+.registered_successfully .common_bg .content .btns button{
+    margin:10px auto 0;
+    display:block;
+    background:rgba(113, 8, 8, 0);
+    border:1px solid #cb1013;
+    color:#cb1013;
+
+}
+.registered_successfully .common_bg .content .btns button:hover{
+    border:1px solid rgba(113, 8, 8, 0);
+    color:#fff;
+    background:#cb1013;
+}
