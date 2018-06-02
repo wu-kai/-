@@ -166,7 +166,7 @@ body>{
     box-sizing:border-box;
 }
 .register .common_bg .content{
-    width:400px;
+    width:470px;
 }
 .register .common_bg .content .name{
     font-size:16px;
@@ -216,10 +216,11 @@ body>{
     cursor:pointer;
 }
 .register .common_bg .content .input-box button{
-    width:calc(100% - 100px);
+    width:calc(100% - 100px - 26px);
     float:right;
     line-height:36px;
     font-size:15px;
+    margin-right:26px;
 }
 .register .common_bg .content .input-box.upload-head input{
     visibility:hidden;
@@ -247,8 +248,33 @@ body>{
     width:190px;
     line-height:104px;
 }
-
-
+/*信用修复*/
+.credit_repairing .common_bg .content .input-box textarea{
+    float:left;
+    width:calc(100% - 130px);
+    resize:none;
+    height:190px;
+    padding:10px;
+}
+.credit_repairing .common_bg .content .input-box.upload-head{}
+.credit_repairing .common_bg .content .input-box.upload-head input[type=text]{
+    visibility:visible;
+    float:left;
+    width:calc(100% - 130px - 130px);
+}
+.credit_repairing .common_bg .content .input-box.upload-head .show-btn{
+    width: 110px;
+    float: left;
+    margin-left: 20px;
+    color: #cb1013;
+    border: 1px solid #cb1013;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    padding-left: 25px;
+    background: #fff url(../image/add-red.png) no-repeat 20px center;
+    background-size: 14px;
+}
 
 
 
