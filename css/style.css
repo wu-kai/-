@@ -173,7 +173,7 @@ body>{
     width:100px;
     padding-right:16px;
     text-align:right;
-    padding-bottom:30px;
+    padding-bottom:10px;
 }
 .register .common_bg .content .input-box{
     margin-top:26px;
@@ -237,8 +237,11 @@ body>{
     background:#fff url('../image/add.png') no-repeat center;
     float:left;
 }
-/**/
-
+/*找回密码*/
+.find-password.register .common_bg .content .input-box button{
+    width:120px;
+    float:left;
+}
 
 
 
