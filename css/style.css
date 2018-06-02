@@ -242,6 +242,11 @@ body>{
     width:120px;
     float:left;
 }
+.reset_password_successfully .common_bg .content p{
+    font-size:15px;
+    width:190px;
+    line-height:104px;
+}
 
 
 
