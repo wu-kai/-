@@ -37,15 +37,27 @@ body>{
     text-align:center;
     border:none;
     background:#cb1013;
-    line-height:24px;
-    font-size:14px;
+    line-height:34px;
+    font-size:15px;
     width:200px;
+}
+.common_btn:hover{
+    cursor:pointer;
+    background:#e01013;
 }
 .common_btn1{
     text-indent:6px;
     letter-spacing:3px;
 }
-
+.common_input{
+    display:block;
+    width:100%;
+    border-radius:5px;
+    height:26px;
+    padding:0 10px;
+    outline:none;
+    border:1px solid #b3b0b0;
+}
 /*公共宽度计算*/
 .common_width{
     width: 90%;
@@ -79,6 +91,11 @@ body>{
     margin-left: 20px;
 }
 /*顶部公共样式 end*/
+/*公共边框*/
+.common_border{
+    border:1px solid #b3b0b0;
+    border-radius:5px;
+}
 
 /*注册页等公共背景 start*/
 .common_bg{
@@ -100,7 +117,7 @@ body>{
     box-sizing: border-box;
 }
 .common_bg .content{
-    margin:0 auto;
+    margin:80px auto 0;
 }
 /*注册页等公共背景 send*/
 /*注册成功页*/
@@ -111,7 +128,6 @@ body>{
     padding:80px 0 70px 0;
     text-align:center;
     width:150px;
-    margin:80px auto 0;
 }
 .registered_successfully .common_bg .content p{
     width: 290px;
@@ -141,3 +157,101 @@ body>{
     color:#fff;
     background:#cb1013;
 }
+/*注册页*/
+.register{}
+.register .common_bg{
+
+}
+.register .common_bg .content *{
+    box-sizing:border-box;
+}
+.register .common_bg .content{
+    width:400px;
+}
+.register .common_bg .content .name{
+    font-size:16px;
+    width:100px;
+    padding-right:16px;
+    text-align:right;
+    padding-bottom:30px;
+}
+.register .common_bg .content .input-box{
+    margin-top:26px;
+}
+.register .common_bg .content .input-box label{
+    float:left;
+    width:100px;
+    text-align:right;
+    padding-right:16px;
+    line-height:30px;
+    color:#333;
+}
+.register .common_bg .content .input-box input{
+    float:left;
+    width:calc(100% - 130px);
+    height:30px;
+}
+.register .common_bg .content .input-box i{
+    width:26px;
+    height:26px;
+    float:right;
+    background:url('../image/accomplish.png') no-repeat right center;
+}
+.register .common_bg .content .verify input{
+    width:calc(100% - 130px - 100px);
+}
+.register .common_bg .content .verify>div{
+    width:80px;
+    float:left;
+    margin-left:18px;
+    line-height:26px;
+    border:1px solid #b3b0b0;
+    border-radius:5px;
+    text-align:center;
+    font-size:12px;
+    color:#b3b0b0;
+
+}
+.register .common_bg .content .verify>div:hover{
+    cursor:pointer;
+}
+.register .common_bg .content .input-box button{
+    width:calc(100% - 100px);
+    float:right;
+    line-height:36px;
+    font-size:15px;
+}
+.register .common_bg .content .input-box.upload-head input{
+    visibility:hidden;
+    width:1px;
+    float:right;
+}
+.register .common_bg .content .input-box.upload-head .show-btn:hover{
+    cursor:pointer;
+}
+.register .common_bg .content .input-box.upload-head .show-btn{
+    width:80px;
+    height:80px;
+    border:1px solid #b3b0b0;
+    border-radius:5px;
+    background:#fff url('../image/add.png') no-repeat center;
+    float:left;
+}
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
