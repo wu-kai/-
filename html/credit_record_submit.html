@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>信用记录报送</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="register credit_repairing">
+    <div class="common_top">
+        <div class="common_width top-box">
+            <div class="left">
+                <span>请登录</span>
+                <span>免费注册</span>
+            </div>
+            <div class="right">
+                <span>网站地图</span>
+                <span>加入收藏</span>
+                <span>站内消息</span>
+            </div>
+            <p class="clearF"></p>
+        </div>
+    </div>
+    <div class="common_bg">
+        <div class="title common_width">四川省其他组织信用门户</div>
+        <div class="content">
+            <div class="input-box">
+                <label>提交单位</label>
+                <input type="text" class="common_input">
+                <p class="clearF"></p>
+            </div>
+            <div class="input-box upload-head">
+                <label>相关附件</label>
+                <input type="text" class="common_input">
+                <input type="file" class="common_input">
+                <div class="show-btn">添加附件</div>
+                <p class="clearF"></p>
+            </div>
+            <div class="input-box">
+                <label>提交人姓名</label>
+                <input type="text" class="common_input">
+                <p class="clearF"></p>
+            </div>
+            <div class="input-box">
+                <label>联系电话</label>
+                <input type="text" class="common_input">
+                <p class="clearF"></p>
+            </div>
+            <div class="input-box" style="margin-top:70px;">
+                <button class="common_btn common_btn1">提交</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/jquery.js"></script>
+    <script>
+      $('.show-btn').on('click',function(){
+        $('input[type=file]').click();
+      })
+    </script>
+</body>
+</html>
