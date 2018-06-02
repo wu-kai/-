@@ -276,9 +276,6 @@ body>{
     background-size: 14px;
 }
 /*信用修复提交成功页*/
-.credit_repairing_successfully{}
-.credit_repairing_successfully .common_bg{}
-.credit_repairing_successfully .common_bg .content{}
 .credit_repairing_successfully .common_bg .content i{
     background:url('../image/oval2.png') no-repeat center;
     width:40px;
@@ -293,7 +290,46 @@ body>{
     font-size:15px;
     margin-top:15px;
 }
-
+/*实名认证页*/
+.real_name_authentication .common_bg .content{
+    padding-right:260px;
+}
+.real_name_authentication .upload-identity-card{
+    position:relative;
+    height:200px;
+}
+.real_name_authentication .upload-identity-card input{
+    width:1px;
+    visibility:hidden;
+    float:left;
+}
+.real_name_authentication .upload-identity-card .upload-box{
+    position:absolute;
+    width:calc(100% - 130px);
+    left:120px;
+}
+.real_name_authentication .upload-identity-card .upload-box.back{
+    left:calc(100% - 130px + 130px);
+}
+.real_name_authentication .upload-identity-card .upload-box>div{
+    width:100%;
+    height:200px;
+    background:url('../image/add.png') no-repeat center;
+    background-size:80px;
+}
+.real_name_authentication .upload-identity-card .upload-box>div:hover{
+    cursor:pointer;
+}
+.real_name_authentication .upload-identity-card .upload-box>p{
+    text-align:center;
+    margin-top:16px;
+}
+.real_name_authentication.register .common_bg .content .input-box label{
+    width:120px;
+}
+.real_name_authentication.register .common_bg .content .input-box button{
+    margin-right:5px;
+}
 
 
 
