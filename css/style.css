@@ -156,7 +156,8 @@ i.weibo{
 
 /*公共阴影*/
 .common_shadow{
-  box-shadow:0 0 26px -10px #666666;
+  box-shadow: 0 0 18px -5px #666666;
+  border-radius: 7px;
 }
 
 /*顶部公共样式 start*/
@@ -220,7 +221,24 @@ i.weibo{
   border:1px solid #b3b0b0;
   border-radius:5px;
 }
-
+/*公共消息提示*/
+.common_message{
+  position:fixed;
+  z-index:998;
+  top:calc(50% - 150px);
+  line-height:50px;
+  left:50%;
+  width:200px;
+  margin-left:-100px;
+  display:none;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border-radius: 6px;
+}
+.common_message.show{
+  display:block;
+}
 /*注册页等公共背景 start*/
 .common_bg{
   width:100%;
@@ -884,6 +902,77 @@ i.weibo{
 .news_details .content .details p{
   margin-top:40px;
   color:#666;
+}
+/*投票页*/
+.vote .content .list-box{
+  width:100%;
+  float:none;
+  margin:0 auto;
+  padding:20px 30px 70px;
+}
+.vote .content .list-box .title{
+  border-bottom:1px solid #dcdcdc;
+  margin-bottom:12px;
+}
+.vote .content .list-box h2{
+  display:inline-block;
+  color:#CB1013;
+  font-size:18px;
+  border-bottom:2px solid #CB1013;
+  padding-bottom:12px;
+}
+.vote .content .list-box .date{
+  font-size:12px;
+  color:#999;
+  margin-right:16px;
+}
+.vote .content .list-box ul{
+
+}
+.vote .content .list-box li{
+  margin-top:20px;
+  padding:20px;
+  background:#f6f6f6;
+}
+.vote .content .list-box .question{
+  font-size:14px;
+  color:#333;
+}
+.vote .content .list-box .option-list{
+  margin-top:16px;
+}
+.vote .content .list-box label{
+  line-height:26px;
+  position:relative;
+  padding-left:24px;
+  margin-top:6px;
+  display:block;
+}
+.vote .content .list-box label:hover{
+  cursor:pointer;
+}
+.vote .content .list-box input{
+  visibility:hidden;
+}
+.vote .content .list-box i{
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  display:inline-block;
+  box-sizing:border-box;
+  border:1px solid #bdbebe;
+  line-height:26px;
+  position:absolute;
+  top:6px;
+  left:0;
+}
+.vote .content .list-box i.checked{
+  border:1px solid #CB1013;
+  background:#CB1013;
+}
+.vote .content .list-box button{
+  width:80px;
+  margin-top:30px;
 }
 
 
