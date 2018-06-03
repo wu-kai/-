@@ -1206,8 +1206,20 @@ i.weibo{
   color:#666;
   width:80px;
 }
-.person_center .xiufu-details{
+.person_center .xiufu-details .fujian{
 
+}
+.person_center .xiufu-details .fujian span{
+color:#CB1013;
+}
+.person_center .xiufu-details .fujian span:first-child{
+  line-height:30px;
+}
+.person_center .xiufu-details .fujian span:hover{
+  cursor:pointer;
+}
+.person_center .xiufu-details p{
+  line-height:30px;
 }
 
 
