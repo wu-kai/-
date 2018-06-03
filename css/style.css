@@ -1080,12 +1080,135 @@ i.weibo{
   /* Internet Explorer 10+ */
   color:#ccc;
 }
+/*个人中心*/
+.person_center{}
+.person_center .content .menu{
+  float:left;
+  width:150px;
+  text-align:center;
+  border-radius:8px;
+  border:1px solid #CB1013;
+  overflow:hidden;
+}
+.person_center .content .menu ul{}
+.person_center .content .menu ul li{
+  line-height:40px;
+  border-bottom:1px solid #dcdcdc;
+}
+.person_center .content .menu ul li:last-child{
+  border-bottom:none;
+}
+.person_center .content .menu ul li:hover{
+  background:#CB1013;
+  color:#fff;
+  cursor:pointer;
+  /*border-bottom:1px solid #CB1013;*/
+}
+.person_center .content .menu ul li.active{
+  background:#CB1013;
+  color:#fff;
+  cursor:pointer;
+  /*border-bottom:1px solid #CB1013;*/
+}
+.person_center .content .list-box{
+  float:right;
+  width:calc(100% - 170px);
+  min-height:600px;
+}
+.person_center .content .list-box>div{
+  display:none;
+  width:100%;
+  height:100%;
+  padding:60px;
+  box-sizing:border-box;
+}
+.person_center .content .list-box>div.show{
+  display:block;
+}
+.person_center .content .list-box .my-info{
 
+}
+.person_center .list-box .my-info .item{
+  overflow:hidden;
+  margin-top:20px;
+}
+.person_center .my-info .item .left{
+  float:left;
+  width:100px;
+  height:30px;
+  line-height:30px;
+}
+.person_center .my-info .item .right{
+  float:left;
+  margin-top:0;
+}
+.person_center .my-info .item .right input{
+  width:100%;
+  box-sizing:border-box;
+  height:30px;
+  line-height:30px;
+}
+.person_center .my-info .item .img{
+  overflow:hidden;
+  width:40px;
+  height:40px;
+  border:1px solid #dcdcdc;
+  border-radius:10px;
+}
+.person_center .my-info .item .img img{
+  width:100%;
+}
 
+.person_center .my-info .item .edit{
+  float:none;
+  display:block;
+  text-align:center;
+  width:40px;
+  font-size:12px;
+  color:#CB1013;
+  padding-top:10px;
 
+}
+.person_center .my-info .item .edit:hover{
+  cursor:pointer;
+}
+.person_center .my-info .item button{
+  width:80px;
+}
+.person_center .edit-password .item button{
+  width:100%;
+  line-height:30px;
+}
+.person_center .content .list-box .xiufujilu{
+  padding:20px;
+}
+.person_center .content .list-box .xiufujilu .item-box{
+  border-bottom:1px solid #dcdcdc;
+  padding:10px 0;
+  position:relative;
+}
+.person_center .content .list-box .xiufujilu .item-box .item{
+  line-height:30px;
+}
+.person_center .xiufujilu .item-box .item span{
+  display:inline-block;
+}
+.person_center .xiufujilu .item-box .status{
+  color:#CB1013;
+  position:absolute;
+  right:0;
+  top:46px;
+}
+.person_center .xiufujilu .item-box .status:hover{
+  cursor:pointer;
+ }
+.person_center .xiufujilu .item-box .item span:first-child{
+  color:#666;
+  width:80px;
+}
+.person_center .xiufu-details{
 
-
-
+}
 
 
 
