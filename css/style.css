@@ -1221,6 +1221,23 @@ color:#CB1013;
 .person_center .xiufu-details p{
   line-height:30px;
 }
+.person_center .my-message{}
+.person_center .my-message .message-list{}
+.person_center .my-message .message-item{
+  border-bottom:1px solid #dcdcdc;
+  padding:20px 0;
+}
+.person_center .my-message .message-item span{
+  color:#7a7b7b;
+  padding-right:10px;px;
+}
+.person_center .my-message .message-item span.no-read{
+  color:#CB1013;
+}
+.person_center .my-message .message-item p{
+  color:#afafaf;
+  display:inline-block;
+}
 
 
 

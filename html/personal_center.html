@@ -86,16 +86,16 @@
             <ul>
                 <li data-content="my-info">我的信息</li>
                 <li data-content="edit-password">修改密码</li>
-                <li class="active" data-content="xiufujilu">信用修复申请记录</li>
+                <li data-content="xiufujilu">信用修复申请记录</li>
                 <li data-content="tousujilu">信用投诉记录</li>
                 <li data-content="tousubaosong">信用投诉报送</li>
-                <li data-content="my-message">我的消息</li>
+                <li class="active" data-content="my-message">我的消息</li>
             </ul>
         </div>
 
         <div class="list-box common_shadow">
             <!--我的信息-->
-            <div class="my-info">
+            <div id="my-info" class="my-info">
                 <div class="item">
                     <div class="left">当前头像</div>
                     <div class="right">
@@ -119,7 +119,7 @@
                 </div>
             </div>
             <!--修改密码-->
-            <div class="edit-password my-info">
+            <div id="edit-password" class="edit-password my-info">
                 <div class="item">
                     <div class="left">原密码</div>
                     <div class="right">
@@ -146,7 +146,7 @@
                 </div>
             </div>
             <!--信用修复申请记录-->
-            <div class="xiufujilu">
+            <div id="xiufujilu" class="xiufujilu">
                 <div class="item-box">
                     <div class="item">
                         <span>工单号</span>
@@ -209,7 +209,7 @@
                 </div>
             </div>
             <!--信用修复申请详情-->
-            <div class="xiufu-details my-info show">
+            <div id="xiufu-details" class="xiufu-details my-info">
                 <div class="item">
                     <div class="left">修复单位</div>
                     <div class="right">
@@ -244,9 +244,85 @@
                     </div>
                 </div>
             </div>
-            <div class="tousujilu">信用投诉记录</div>
-            <div class="tousubaosong">信用投诉报送</div>
-            <div class="my-message">我的消息</div>
+            <!--信用投诉记录-->
+            <div id="tousujilu" class="tousujilu xiufujilu">
+                <div class="item-box">
+                    <div class="item">
+                        <span>工单号</span>
+                        <span>123123123123</span>
+                    </div>
+                    <div class="item">
+                        <span>投诉单位</span>
+                        <span>XXXXXXXXXXXXX</span>
+                    </div>
+                    <div class="item">
+                        <span>投诉时间</span>
+                        <span>2018-07-13</span>
+                    </div>
+                    <div class="status">审核中</div>
+                </div>
+            </div>
+            <!--信用投诉记录详情-->
+            <div id="tousujilu-details" class="tousujilu-details xiufu-details my-info">
+                <div class="item">
+                    <div class="left">投诉单位</div>
+                    <div class="right">
+                        <input type="text" class="common_input">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left">投诉详情</div>
+                    <div class="right" style="width:60%">
+                        <p style="line-height:24px">发动机自动熄火，再也打不着了…”“方向盘也打不动，刹车也刹不住，那真的是听天由命…”近年来，一些“大众途锐”车主向4S店反映，发动机突然失灵...
+                            2016年10月，福建宁德的黄女士花费62万元，购买了一辆2017款大众途锐汽车，仅仅7个月后，这辆车突然无法启动了。
+                            福建宁德途锐车主黄女士：“车子刚刚打火的时候，发动机里面有异响，大概有三分钟自然熄火…</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left">相关附件</div>
+                    <div class="right fujian">
+                        <span>附件一</span>
+                        <span>附件二</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left">投诉人姓名</div>
+                    <div class="right">
+                        <p>杨阳洋</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left">联系电话</div>
+                    <div class="right">
+                        <p>1818596825</p>
+                    </div>
+                </div>
+            </div>
+            <div id="tousubaosong" class="tousubaosong">信用投诉报送</div>
+            <div id="my-message" class="my-message show">
+                <div class="message-list">
+                    <div class="message-item">
+                        <span class="no-read">未读</span>
+                        <p>这里是消息这里是消息这里是消息这里是消息。。。。。</p>
+                    </div>
+                    <div class="message-item">
+                        <span class="no-read">未读</span>
+                        <p>这里是消息这里是消息这里是消息这里是消息。。。。。</p>
+                    </div>
+                    <div class="message-item">
+                        <span class="no-read">未读</span>
+                        <p>这里是消息这里是消息这里是消息这里是消息。。。。。</p>
+                    </div>
+                    <div class="message-item">
+                        <span class="no-read">未读</span>
+                        <p>这里是消息这里是消息这里是消息这里是消息。。。。。</p>
+                    </div>
+                    <div class="message-item">
+                        <span class="no-read">未读</span>
+                        <p>这里是消息这里是消息这里是消息这里是消息。。。。。</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <p class="clearF"></p>
     </div>
@@ -284,7 +360,7 @@
       $menu.find('li').on('click',function(){
         var className = $(this).data('content');
         $(this).addClass('active').siblings().removeClass('active');
-        $('.'+className).addClass('show').siblings().removeClass('show');
+        $('#'+className).addClass('show').siblings().removeClass('show');
       })
     </script>
 </body>
