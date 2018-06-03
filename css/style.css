@@ -974,9 +974,112 @@ i.weibo{
   width:80px;
   margin-top:30px;
 }
+/*公共登录框样式*/
+#login{
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.3);
+  position:fixed;
+  top:0;
+  z-index:99999;
+  display:none;
+}
+#login.on{
+  display:block;
+}
+#login .login-modal{
+  width:280px;
+  background:#fff;
+  position:fixed;
+  top:calc(50% - 200px);
+  left:calc(50% - 140px);
+  z-index:99999;
+  padding:20px;
+  border-radius:10px;
+}
+#login .title{
+  border-bottom:1px solid #dcdcdc;
+  overflow:hidden;
+  padding-bottom:10px;
+}
+#login .title h2{
+  float:left;
+}
+#login .title span{
+  float:right;
+  color:#dcdcdc;
+  font-size:16px;
+}
+#login .title span:hover{
+  cursor:pointer;
+}
+#login .box{
+  padding:10px 10px 10px;
+}
+#login .box .input-box{
+  width:100%;
+  box-sizing:border-box;
+  padding-left:26px;
+  border:1px solid #dcdcdc;
+  border-radius:5px;
+  margin-top:10px;
+  height:30px;
+}
+#login .box .input-box input{
+  width:calc(100% - 20px);
+  border:none;
+  border-left:1px solid #dcdcdc;
+  height:20px;
+  margin-top:5px;
+  margin-left:6px;
+  padding:0 6px 0 6px;
+  color:#8c8c8c;
+}
+#login .box .iphone{
+  background:url('../image/phone.png')no-repeat 6px center;
+}
+#login .box .iphone input{
+  width:calc(100% - 30px);
+}
+#login .box .password{
+  background:url('../image/key.png')no-repeat 6px center;
+}
+#login button{
+  width:100%;
+  margin-top:20px;
+}
+#login p{
+  margin-top:10px;
+  text-align:right;
+}
+#login p span{
+  color:#CB1013;
+  font-size:12px;
+}
+#login p span:hover{
+  cursor:pointer;
+}
+#login p span:first-child{
+  border-right:1px solid #CB1013;
+  padding-right:6px;
+}
 
-
-
+#login input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+  /* WebKit browsers */
+  color:#ccc;
+}
+#login input:-moz-placeholder, textarea:-moz-placeholder{
+  /* Mozilla Firefox 4 to 18 */
+  color:#ccc;
+}
+#login input::-moz-placeholder, textarea::-moz-placeholder{
+  /* Mozilla Firefox 19+ */
+  color:#ccc;
+}
+#login input:-ms-input-placeholder, textarea:-ms-input-placeholder{
+  /* Internet Explorer 10+ */
+  color:#ccc;
+}
 
 
 
