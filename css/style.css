@@ -76,6 +76,23 @@ body >{
   min-height:100%;
 }
 
+i.weixin{
+  background:url('../image/icon_weixin.png') no-repeat center;
+  background-size:100%;
+}
+i.qq{
+  background:url('../image/icon_qq.png') no-repeat center;
+  background-size:100%;
+}
+i.qzone{
+  background:url('../image/icon_qzone.png') no-repeat center;
+  background-size:100%;
+}
+i.weibo{
+  background:url('../image/icon_weibo.png') no-repeat center;
+  background-size:100%;
+}
+
 /*工具样式*/
 /*清除浮动*/
 .clearF{
@@ -828,8 +845,46 @@ body >{
   line-height:18px;
   font-size:13px;
 }
-
-
+/*新闻详情页*/
+.news_details .content .details{
+  padding:20px 30px;
+}
+.news_details .content .details h2{
+  width:70%;
+  margin:20px auto 0;
+  text-align:center;
+  font-size:18px;
+}
+.news_details .content .details .info{
+  color:#999;
+  font-size:12px;
+  overflow:hidden;
+  width:74%;
+  text-align:center;
+  margin:20px auto 0;
+}
+.news_details .content .details .info span{
+  float:left;
+  line-height:20px;
+}
+.news_details .content .details .info span:first-child{
+  margin-right:50px;
+}
+.news_details .content .details .info span:nth-child(2){}
+.news_details .content .details .info span:last-child{
+  float:right;
+  overflow:hidden;
+}
+.news_details .content .details .info span:last-child i{
+  float:right;
+  width:20px;
+  height:20px;
+  margin-left:4px;
+}
+.news_details .content .details p{
+  margin-top:40px;
+  color:#666;
+}
 
 
 
