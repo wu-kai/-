@@ -309,7 +309,7 @@ i.weibo{
   border:1px solid #CB1013;
 }
 
-.common_head .right .search{
+.common_head .search{
   border:2px solid #cb1013;
   box-sizing:border-box;
   height:36px;
@@ -319,7 +319,7 @@ i.weibo{
   line-height:32px;
 }
 
-.common_head .right .search input{
+.common_head .search input{
   border:none;
   float:left;
   line-height:32px;
@@ -327,27 +327,27 @@ i.weibo{
   width:calc(100% - 90px);
 }
 
-.common_head .right .search input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+.common_head .search input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
   /* WebKit browsers */
   color:#ccc;
 }
 
-.common_head .right .search input:-moz-placeholder, textarea:-moz-placeholder{
+.common_head .search input:-moz-placeholder, textarea:-moz-placeholder{
   /* Mozilla Firefox 4 to 18 */
   color:#ccc;
 }
 
-.common_head .right .search input::-moz-placeholder, textarea::-moz-placeholder{
+.common_head .search input::-moz-placeholder, textarea::-moz-placeholder{
   /* Mozilla Firefox 19+ */
   color:#ccc;
 }
 
-.common_head .right .search input:-ms-input-placeholder, textarea:-ms-input-placeholder{
+.common_head .search input:-ms-input-placeholder, textarea:-ms-input-placeholder{
   /* Internet Explorer 10+ */
   color:#ccc;
 }
 
-.common_head .right .search i{
+.common_head .search i{
   width:50px;
   background:#cb1013 url(../image/search.png) no-repeat 13px center;
   color:#fff;
@@ -471,13 +471,42 @@ i.weibo{
 }
 
 /*公共底部end*/
+/*公共表格样式 start*/
+.common_table{
+  width:calc(100% - 20px);
+  box-sizing:border-box;
+  border-radius:5px;
+  border:1px solid #d2d2d2;
+  margin:0 auto;
+}
+.common_table table{
+  border-bottom:none;
+  width:100%;
+  border-radius:5px;
+}
+.common_table table tr{
+  border-bottom:1px solid #d2d2d2;
+}
+.common_table table td,.common_table table th{
+  padding:6px;
+  vertical-align: middle;
+}
+.common_table table thead tr th{
+  border-left:1px solid #d2d2d2;
+  width:20%;
+  text-align:left;
+}
+.common_table table thead tr th:first-child{
+  border-left:none;
+}
+.common_table table tbody tr:last-child{
+  border-bottom:none;
+}
+.common_table table .paging-box{
+  text-align:center;
+}
+/*公共表格样式 end*/
 /*注册成功页*/
-.registered_successfully{
-}
-
-.registered_successfully .common_bg{
-}
-
 .registered_successfully .common_bg .content{
   background:rgba(113, 8, 8, 0.11);
   padding:80px 0 70px 0;
@@ -915,6 +944,7 @@ i.weibo{
   float:none;
   margin:0 auto;
   padding:20px 30px 70px;
+  box-sizing:border-box;
 }
 .vote .content .list-box .title{
   border-bottom:1px solid #dcdcdc;
@@ -1244,7 +1274,85 @@ color:#CB1013;
   color:#afafaf;
   display:inline-block;
 }
+/*机构查询*/
+.organization_search{}
+.organization_search .common_head{
+  width:60%;
+  margin:0 auto;
+}
+.organization_search .content .list-box{
+  margin-top:20px;
+  padding:10px;
+}
+.organization_search .select-list{
+  margin-top:10px;
+}
+.organization_search .select-list .left{
+  float:left;
+  width:86px;
+  color:#333;
+  font-size:15px;
+  padding-left:10px;
+  box-sizing:border-box;
+}
+.organization_search .select-list .right{
+  float:left;
+  margin-top:0;
+  color:#333;
+  width:calc(100% - 86px);
+  padding-right:30px;
+}
+.organization_search .select-list .right .main-list{
+  overflow:hidden;
 
+}
+.organization_search .select-list .right .main-list span{
+  float:left;
+  margin-right:16px;
+  margin-bottom:16px;
+}
+.organization_search .select-list .right .main-list span.active{
+  color:#CB1013;
+}
+.organization_search .select-list .right .main-list span:hover{
+  color:#CB1013;
+  cursor:pointer;
+}
+.organization_search .select-list .right .sub-list{
+  overflow:hidden;
+  border:1px solid #999;
+  padding:10px 10px 0 10px;
+  border-radius:5px;
+}
+.organization_search .select-list .right .sub-list span{
+  float:left;
+  margin-bottom:10px;
+  font-size:12px;
+  margin-right:12px;
+  color:#7a7b7b;
+}
+.organization_search .select-list .right .sub-list span.active{
+  color:#CB1013;
+}
+.organization_search .select-list .right .sub-list span:hover{
+  color:#CB1013;
+  cursor:pointer;
+}
+.organization_search .table-box .org_name{
+  color:#CB1013;
+}
+.organization_search .table-box{
+  font-size:12px;
+  margin-top:30px;
+}
+.organization_search .table-box .paging-box{
+  height:80px;
+  position:relative;
+  padding:0;
+}
+.organization_search .table-box .paging-box .common_pagination{
+  bottom:10px;
+}
 
 
 
