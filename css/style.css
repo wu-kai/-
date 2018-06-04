@@ -156,7 +156,7 @@ i.weibo{
 
 /*公共阴影*/
 .common_shadow{
-  box-shadow: 0 0 18px -5px #666666;
+  box-shadow: 0 0 18px -5px #cc9b9b8a;
   border-radius: 7px;
 }
 
@@ -1353,6 +1353,64 @@ color:#CB1013;
 .organization_search .table-box .paging-box .common_pagination{
   bottom:10px;
 }
-
+/*信用公示页*/
+.credit_opening{}
+.credit_opening .list-box{
+  width:100%;
+  box-sizing:border-box;
+  padding:20px 20px 100px 20px;
+  margin-top:20px;
+  position:relative;
+}
+.credit_opening .credit_opening_menu{
+  display:inline-block;
+  width:140px;
+  float:left;
+  margin-right:20px;
+  font-size:13px;
+}
+.credit_opening .credit_opening_menu ul{
+  border:1px solid #CB1013;
+  border-radius:5px;
+  overflow:hidden;
+}
+.credit_opening .credit_opening_menu ul li{
+  border-bottom:1px solid #d2d2d2;
+  text-align:center;
+  line-height:50px;
+}
+.credit_opening .credit_opening_menu ul li:last-child{
+  border-bottom:none;
+}
+.credit_opening .credit_opening_menu ul li.active{
+  background:#CB1013;
+  color:#fff;
+}
+.credit_opening .credit_opening_menu ul li:hover{
+  cursor:pointer;
+  background:#CB1013;
+  color:#fff;
+}
+.credit_opening .list-box .table-box{
+  display:inline-block;
+  width:calc(100% - 160px);
+  float:left;
+}
+.credit_opening .list-box .table-box table{
+  border:1px solid #d2d2d2;
+}
+.credit_opening .list-box .table-box table th{
+  width:15%;
+  font-size:13px;
+  text-align:center;
+  height:30px;
+}
+.credit_opening .list-box .table-box table th:nth-child(2){
+  width:20%;
+}
+.credit_opening .list-box .table-box table td{
+  height:30px;
+  border:1px solid #d2d2d2;
+}
 
 
