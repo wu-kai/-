@@ -303,6 +303,11 @@ i.weibo{
   color:#fff;
   border:1px solid #CB1013;
 }
+.common_head .right .switch span.active{
+  background:#CB1013;
+  color:#fff;
+  border:1px solid #CB1013;
+}
 
 .common_head .right .search{
   border:2px solid #cb1013;
