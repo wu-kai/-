@@ -424,6 +424,7 @@ i.weibo{
 /*公共轮播 start*/
 .common_banner img{
   display:block;
+  width: 100%;
 }
 
 .swiper-pagination-bullet{
