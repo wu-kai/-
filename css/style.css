@@ -1496,4 +1496,89 @@ color:#CB1013;
   background:#FBFBFB;
   color:#999999;
 }
+/*网站地图*/
+.web-map{
+  background: #fffcfc;
+}
+.web-map .map-header{
 
+}
+.web-map .content-box{
+  position:relative;
+  min-height:600px;
+  margin-top:60px;
+  margin-bottom:50px;
+}
+.web-map .content-box h2{
+  font-size:18px;
+}
+.web-map .menu{
+  position:absolute;
+  left:-120px;
+}
+.web-map .menu ul{
+  background:#CB1013;
+  border-radius:5px;
+  overflow:hidden;
+  padding:10px 0;
+}
+.web-map .menu ul li{
+  color:#fff;
+  line-height:30px;
+  width:100px;
+  text-align:center;
+}
+.web-map .menu ul li.active{
+  background:rgba(6,0,0,0.20);
+
+}
+.web-map .menu ul li:hover{
+  background:rgba(6,0,0,0.20);
+  cursor:pointer;
+}
+.web-map .content-box .content{
+  width:100%;
+  background:#fff;
+  padding:0 20px 20px 20px;
+  box-sizing:border-box;
+}
+.web-map .item-box{
+  border-bottom:1px solid #ececec;
+  padding:20px 0;
+}
+.web-map .item-box .item{
+  margin-top:16px;
+}
+.web-map .about .item{
+  font-size:13px;
+  color:#333;
+  text-indent:26px;
+}
+.web-map .item-box .item p{
+  font-size:13px;
+  color:#333;
+}
+.web-map .map{}
+.web-map .map .map-item{
+  overflow:hidden;
+  border-bottom:1px dotted #ececec;
+  padding:20px 0;
+}
+.web-map .map .map-item .title{
+  float:left;
+  width:80px;
+}
+.web-map .map .map-item .values{
+  float:left;
+  width:calc(100% - 100px);
+}
+.web-map .map .map-item .values span{
+  margin-right:20px;
+}
+.web-map .map .map-item .values span:hover{
+  color:#CB1013;
+  cursor:pointer;
+}
+.web-map .map .map-item .values span.active{
+  color:#CB1013;
+}
