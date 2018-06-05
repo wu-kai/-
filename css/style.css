@@ -1412,5 +1412,88 @@ color:#CB1013;
   height:30px;
   border:1px solid #d2d2d2;
 }
+/*机构详情*/
+.organization_details{}
+.organization_details .list-box{
+  margin-top:18px;
+}
+.organization_details .organization_details_box{
+  padding:20px;
+}
+.organization_details .organization_details_box .head{
+  border-bottom:1px solid #f3f0f0;
+  overflow:hidden;
+}
+.organization_details .organization_details_box .head h1{
+  line-height:40px;
+  border-bottom:2px solid #CB1013;
+  font-size:18px;
+  color:#CB1013;
+  float:left;
+}
+.organization_details .organization_details_box .head .icons{
+  float:right;
+  padding-top:10px;
+}
+.organization_details .organization_details_box .head .icons i{
+  display:inline-block;
+  width:14px;
+  height:14px;
+  margin-left:16px;
+}
+.organization_details .organization_details_box .head .icons .up{
+  background:url('../image/icon_up.png') no-repeat center;
+  background-size:100%;
+}
+.organization_details .organization_details_box .head .icons .remove{
+  background:url('../image/icon_mroe.png') no-repeat center;
+  background-size:100%;
+}
+.organization_details .organization_details_box .details-box{
+  overflow:hidden;
+}
+.organization_details .organization_details_box .details-box .item-box{
+  width:50%;
+  box-sizing:border-box;
+  float:left;
+  margin-top:20px;
+  vertical-align:top;
+}
+.organization_details .organization_details_box .details-box .item-box .key{
+  display:inline-block;
+  width:120px;
+  color:#999;
 
+}
+.organization_details .organization_details_box .details-box .item-box .value{
+  display:inline-block;
+  width:calc(100% - 150px);
+  vertical-align:top;
+}
+.organization_details .table-box.common_table{
+  width:100%;
+  margin-top:20px;
+}
+.organization_details .table-box th.col_span6{
+  width:16%;
+}
+.organization_details .table-box th.col_span5{
+  width:20%;
+}
+.organization_details .table-box th.col_span3{
+  width:33%;
+}
+.organization_details .table-box th.col_span8{
+  width:12.5%;
+}
+.organization_details .table-box th.col_span4{
+  width:25%;
+}
+.organization_details .table-box td,.organization_details .table-box th{
+  line-height:40px;
+}
+.organization_details .table-box td.no-info{
+  background:#FBFBFB;
+  color:#999999;
+}
 
