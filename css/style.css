@@ -1582,3 +1582,125 @@ color:#CB1013;
 .web-map .map .map-item .values span.active{
   color:#CB1013;
 }
+/*首页*/
+.index .left{
+  float:left;
+  width:calc(100% - 260px);
+}
+.index .main-box{
+  overflow:hidden;
+  padding:20px;
+  box-sizing:border-box;
+  border-radius:10px;
+  margin-top:10px;
+}
+.index .main-box .img{
+  width:240px;
+  float:left;
+  border-radius:10px;
+  overflow:hidden;
+}
+.index .main-box .img img{
+  display:block;
+  width:100%;
+}
+.index .main-box .right{
+  float:right;
+  width:calc(100% - 256px);
+  margin-top:0;
+}
+.index .main-box .right h2{
+  font-size:16px;
+}
+.index .main-box .right p{
+  font-size:12px;
+  color:#666;
+  margin-top:10px;
+}
+.index .main-box .right .time{
+  text-align:right;
+  margin-top:10px;
+  color:#999;
+  font-size:12px;
+}
+.index .sub-box-list{
+  margin-top:20px;
+  box-sizing:border-box;
+}
+.index .sub-box-list.center{
+  margin-left:10px;
+}
+.index .right{
+
+}
+.index .sub-box-list .sub-box{
+  background:#fff;
+  float:left;
+  overflow:hidden;
+  padding:20px;
+  box-sizing:border-box;
+  border-radius:10px;
+  margin-top:10px;
+  width:calc(50% - 8px);
+}
+.index .sub-box-list .sub-box:nth-child(odd){
+  margin-right:16px;
+}
+.index .sub-box-list .sub-box .head{
+  border-bottom:1px solid #e2e2e2;
+  overflow:hidden;
+
+}
+.index .sub-box-list .sub-box .head h3{
+  padding-bottom:10px;
+  border-bottom:2px solid #CB1013;
+  display:inline-block;
+  color:#CB1013;
+  font-size:16px;
+}
+.index .sub-box-list .sub-box .head .more{
+  float:right;
+  font-size:13px;
+  color:#999;
+  padding-right:20px;
+  background:url('../image/more.png') no-repeat right center;
+}
+.index .sub-box-list .sub-box .head .more:hover{
+  cursor:pointer;
+}
+.index .sub-box-list .sub-box .body{}
+.index .sub-box-list .sub-box .body .item{
+  margin-top:16px;
+  font-size:12px;
+  overflow:hidden;
+}
+.index .sub-box-list .sub-box .body .item i{
+  float:left;
+  width:10px;
+  height:10px;
+  border-radius:5px;
+  background:#e6e6e6;
+  margin-top:3px;
+}
+.index .sub-box-list .sub-box .body .item .info{
+  float:left;
+  padding-left:5px;
+}
+.index .sub-box-list .sub-box .body .item .info.active{
+  color:#CB1013;
+}
+.index .sub-box-list .sub-box .body .item .info:hover{
+  cursor:pointer;
+  color:#CB1013;
+}
+
+.index .sub-box-list .sub-box .body .item .time{
+  float:right;
+  font-size:12px;
+  color:#999;
+}
+
+
+
+
+
