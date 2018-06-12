@@ -393,17 +393,20 @@ i.weibo{
 
 .common_menu .sub-menu{
   position:absolute;
-  top:54px;
+  top:30px;
   width:100%;
   left:0;
   border-radius:3px;
   box-sizing:border-box;
-  background:#CB1013;
+  /*background:#CB1013;*/
   display:none;
   z-index:99999;
+  padding-top: 20px;
 }
 
 .common_menu .sub-menu ul{
+  background:#CB1013;
+  overflow: hidden;
 }
 
 .common_menu ul li .sub-menu li{
@@ -415,12 +418,17 @@ i.weibo{
   border-bottom:1px solid #da1114;
 }
 
+.common_menu ul li .sub-menu li:hover{
+  background: #fff;
+  color: #CB1013;
+}
+
 .common_menu ul li .sub-menu li:last-child{
   border-bottom:none;
 }
 
 .common_menu .sub-menu .triangle{
-  top:-10px;
+  top:10px;
   left:50%;
   margin-left:-8px;
 }
