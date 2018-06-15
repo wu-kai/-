@@ -1707,4 +1707,22 @@ color:#CB1013;
   font-size:12px;
   color:#999;
 }
-
+.credit_dynamic.index_1 .content-center{
+  overflow:hidden;
+}
+.index_1 .content-center .sub-box-list .sub-box{
+  width:100%;
+}
+.index_1 .content-table-box{
+  position:relative;
+  height:258px;
+  overflow:hidden;
+}
+.index_1 .table-box .content-table{
+  position:absolute;
+  top:-44px;
+}
+.index_1 .table-box .content-table{}
+.index_1 .list-box{
+  padding:0;
+}
