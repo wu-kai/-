@@ -1726,3 +1726,17 @@ color:#CB1013;
 .index_1 .list-box{
   padding:0;
 }
+
+.organization_details_1 .organization_details_box .head h1{
+  color:#333;
+  border:none;
+}
+.organization_details_1 .organization_details_box .details-box .item-box{
+  width:100%;
+}
+.organization_details_1 .organization_details_box .details-box .item-box .key{
+  width:160px;
+}
+.organization_details_1 .organization_details_box .details-box .item-box .value{
+  width:calc(100% - 170px);
+}
